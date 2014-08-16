@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5AD961199FB45C00CCD811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD960199FB45C00CCD811 /* Foundation.framework */; };
+		4C5AD963199FB45C00CCD811 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD962199FB45C00CCD811 /* CoreGraphics.framework */; };
+		4C5AD965199FB45C00CCD811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD964199FB45C00CCD811 /* UIKit.framework */; };
+		4C5AD96B199FB45C00CCD811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD969199FB45C00CCD811 /* InfoPlist.strings */; };
+		4C5AD96D199FB45C00CCD811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD96C199FB45C00CCD811 /* main.m */; };
+		4C5AD971199FB45C00CCD811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD970199FB45C00CCD811 /* AppDelegate.m */; };
+		4C5AD974199FB45C00CCD811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD972199FB45C00CCD811 /* Main.storyboard */; };
+		4C5AD977199FB45C00CCD811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD976199FB45C00CCD811 /* ViewController.m */; };
+		4C5AD979199FB45C00CCD811 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD978199FB45C00CCD811 /* Images.xcassets */; };
+		4C5AD980199FB45C00CCD811 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD97F199FB45C00CCD811 /* XCTest.framework */; };
+		4C5AD981199FB45C00CCD811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD960199FB45C00CCD811 /* Foundation.framework */; };
+		4C5AD982199FB45C00CCD811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD964199FB45C00CCD811 /* UIKit.framework */; };
+		4C5AD98A199FB45C00CCD811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD988199FB45C00CCD811 /* InfoPlist.strings */; };
+		4C5AD98C199FB45C00CCD811 /* imageSwiperiOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD98B199FB45C00CCD811 /* imageSwiperiOSAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5AD983199FB45C00CCD811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5AD955199FB45C00CCD811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5AD95C199FB45C00CCD811;
+			remoteInfo = imageSwiperiOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5AD95D199FB45C00CCD811 /* imageSwiperiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageSwiperiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5AD960199FB45C00CCD811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C5AD962199FB45C00CCD811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C5AD964199FB45C00CCD811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C5AD968199FB45C00CCD811 /* imageSwiperiOSApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageSwiperiOSApp-Info.plist"; sourceTree = "<group>"; };
+		4C5AD96A199FB45C00CCD811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5AD96C199FB45C00CCD811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C5AD96E199FB45C00CCD811 /* imageSwiperiOSApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imageSwiperiOSApp-Prefix.pch"; sourceTree = "<group>"; };
+		4C5AD96F199FB45C00CCD811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C5AD970199FB45C00CCD811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C5AD973199FB45C00CCD811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5AD975199FB45C00CCD811 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C5AD976199FB45C00CCD811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C5AD978199FB45C00CCD811 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C5AD97E199FB45C00CCD811 /* imageSwiperiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageSwiperiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5AD97F199FB45C00CCD811 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C5AD987199FB45C00CCD811 /* imageSwiperiOSAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageSwiperiOSAppTests-Info.plist"; sourceTree = "<group>"; };
+		4C5AD989199FB45C00CCD811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C5AD98B199FB45C00CCD811 /* imageSwiperiOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageSwiperiOSAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5AD95A199FB45C00CCD811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD963199FB45C00CCD811 /* CoreGraphics.framework in Frameworks */,
+				4C5AD965199FB45C00CCD811 /* UIKit.framework in Frameworks */,
+				4C5AD961199FB45C00CCD811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5AD97B199FB45C00CCD811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD980199FB45C00CCD811 /* XCTest.framework in Frameworks */,
+				4C5AD982199FB45C00CCD811 /* UIKit.framework in Frameworks */,
+				4C5AD981199FB45C00CCD811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5AD954199FB45C00CCD811 = {
+			isa = PBXGroup;
+			children = (
+				4C5AD966199FB45C00CCD811 /* imageSwiperiOSApp */,
+				4C5AD985199FB45C00CCD811 /* imageSwiperiOSAppTests */,
+				4C5AD95F199FB45C00CCD811 /* Frameworks */,
+				4C5AD95E199FB45C00CCD811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5AD95E199FB45C00CCD811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD95D199FB45C00CCD811 /* imageSwiperiOSApp.app */,
+				4C5AD97E199FB45C00CCD811 /* imageSwiperiOSAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5AD95F199FB45C00CCD811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD960199FB45C00CCD811 /* Foundation.framework */,
+				4C5AD962199FB45C00CCD811 /* CoreGraphics.framework */,
+				4C5AD964199FB45C00CCD811 /* UIKit.framework */,
+				4C5AD97F199FB45C00CCD811 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C5AD966199FB45C00CCD811 /* imageSwiperiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD96F199FB45C00CCD811 /* AppDelegate.h */,
+				4C5AD970199FB45C00CCD811 /* AppDelegate.m */,
+				4C5AD972199FB45C00CCD811 /* Main.storyboard */,
+				4C5AD975199FB45C00CCD811 /* ViewController.h */,
+				4C5AD976199FB45C00CCD811 /* ViewController.m */,
+				4C5AD978199FB45C00CCD811 /* Images.xcassets */,
+				4C5AD967199FB45C00CCD811 /* Supporting Files */,
+			);
+			path = imageSwiperiOSApp;
+			sourceTree = "<group>";
+		};
+		4C5AD967199FB45C00CCD811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD968199FB45C00CCD811 /* imageSwiperiOSApp-Info.plist */,
+				4C5AD969199FB45C00CCD811 /* InfoPlist.strings */,
+				4C5AD96C199FB45C00CCD811 /* main.m */,
+				4C5AD96E199FB45C00CCD811 /* imageSwiperiOSApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5AD985199FB45C00CCD811 /* imageSwiperiOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD98B199FB45C00CCD811 /* imageSwiperiOSAppTests.m */,
+				4C5AD986199FB45C00CCD811 /* Supporting Files */,
+			);
+			path = imageSwiperiOSAppTests;
+			sourceTree = "<group>";
+		};
+		4C5AD986199FB45C00CCD811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5AD987199FB45C00CCD811 /* imageSwiperiOSAppTests-Info.plist */,
+				4C5AD988199FB45C00CCD811 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5AD95C199FB45C00CCD811 /* imageSwiperiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5AD98F199FB45C00CCD811 /* Build configuration list for PBXNativeTarget "imageSwiperiOSApp" */;
+			buildPhases = (
+				4C5AD959199FB45C00CCD811 /* Sources */,
+				4C5AD95A199FB45C00CCD811 /* Frameworks */,
+				4C5AD95B199FB45C00CCD811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imageSwiperiOSApp;
+			productName = imageSwiperiOSApp;
+			productReference = 4C5AD95D199FB45C00CCD811 /* imageSwiperiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5AD97D199FB45C00CCD811 /* imageSwiperiOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5AD992199FB45C00CCD811 /* Build configuration list for PBXNativeTarget "imageSwiperiOSAppTests" */;
+			buildPhases = (
+				4C5AD97A199FB45C00CCD811 /* Sources */,
+				4C5AD97B199FB45C00CCD811 /* Frameworks */,
+				4C5AD97C199FB45C00CCD811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5AD984199FB45C00CCD811 /* PBXTargetDependency */,
+			);
+			name = imageSwiperiOSAppTests;
+			productName = imageSwiperiOSAppTests;
+			productReference = 4C5AD97E199FB45C00CCD811 /* imageSwiperiOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5AD955199FB45C00CCD811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = 0xack13;
+				TargetAttributes = {
+					4C5AD97D199FB45C00CCD811 = {
+						TestTargetID = 4C5AD95C199FB45C00CCD811;
+					};
+				};
+			};
+			buildConfigurationList = 4C5AD958199FB45C00CCD811 /* Build configuration list for PBXProject "imageSwiperiOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5AD954199FB45C00CCD811;
+			productRefGroup = 4C5AD95E199FB45C00CCD811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5AD95C199FB45C00CCD811 /* imageSwiperiOSApp */,
+				4C5AD97D199FB45C00CCD811 /* imageSwiperiOSAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5AD95B199FB45C00CCD811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD979199FB45C00CCD811 /* Images.xcassets in Resources */,
+				4C5AD96B199FB45C00CCD811 /* InfoPlist.strings in Resources */,
+				4C5AD974199FB45C00CCD811 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5AD97C199FB45C00CCD811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD98A199FB45C00CCD811 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5AD959199FB45C00CCD811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD977199FB45C00CCD811 /* ViewController.m in Sources */,
+				4C5AD971199FB45C00CCD811 /* AppDelegate.m in Sources */,
+				4C5AD96D199FB45C00CCD811 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5AD97A199FB45C00CCD811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5AD98C199FB45C00CCD811 /* imageSwiperiOSAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5AD984199FB45C00CCD811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5AD95C199FB45C00CCD811 /* imageSwiperiOSApp */;
+			targetProxy = 4C5AD983199FB45C00CCD811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5AD969199FB45C00CCD811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5AD96A199FB45C00CCD811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C5AD972199FB45C00CCD811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5AD973199FB45C00CCD811 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5AD988199FB45C00CCD811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5AD989199FB45C00CCD811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5AD98D199FB45C00CCD811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C5AD98E199FB45C00CCD811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5AD990199FB45C00CCD811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageSwiperiOSApp/imageSwiperiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "imageSwiperiOSApp/imageSwiperiOSApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C5AD991199FB45C00CCD811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageSwiperiOSApp/imageSwiperiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "imageSwiperiOSApp/imageSwiperiOSApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C5AD993199FB45C00CCD811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imageSwiperiOSApp.app/imageSwiperiOSApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageSwiperiOSApp/imageSwiperiOSApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "imageSwiperiOSAppTests/imageSwiperiOSAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C5AD994199FB45C00CCD811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imageSwiperiOSApp.app/imageSwiperiOSApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageSwiperiOSApp/imageSwiperiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "imageSwiperiOSAppTests/imageSwiperiOSAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5AD958199FB45C00CCD811 /* Build configuration list for PBXProject "imageSwiperiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AD98D199FB45C00CCD811 /* Debug */,
+				4C5AD98E199FB45C00CCD811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5AD98F199FB45C00CCD811 /* Build configuration list for PBXNativeTarget "imageSwiperiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AD990199FB45C00CCD811 /* Debug */,
+				4C5AD991199FB45C00CCD811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C5AD992199FB45C00CCD811 /* Build configuration list for PBXNativeTarget "imageSwiperiOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AD993199FB45C00CCD811 /* Debug */,
+				4C5AD994199FB45C00CCD811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5AD955199FB45C00CCD811 /* Project object */;
+}
