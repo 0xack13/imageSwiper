@@ -21,6 +21,9 @@
 		4C5AD982199FB45C00CCD811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5AD964199FB45C00CCD811 /* UIKit.framework */; };
 		4C5AD98A199FB45C00CCD811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD988199FB45C00CCD811 /* InfoPlist.strings */; };
 		4C5AD98C199FB45C00CCD811 /* imageSwiperiOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5AD98B199FB45C00CCD811 /* imageSwiperiOSAppTests.m */; };
+		4C5AD998199FBE1800CCD811 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD995199FBE1800CCD811 /* 1.png */; };
+		4C5AD999199FBE1800CCD811 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD996199FBE1800CCD811 /* 2.png */; };
+		4C5AD99A199FBE1800CCD811 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5AD997199FBE1800CCD811 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		4C5AD987199FB45C00CCD811 /* imageSwiperiOSAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageSwiperiOSAppTests-Info.plist"; sourceTree = "<group>"; };
 		4C5AD989199FB45C00CCD811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C5AD98B199FB45C00CCD811 /* imageSwiperiOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageSwiperiOSAppTests.m; sourceTree = "<group>"; };
+		4C5AD995199FBE1800CCD811 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4C5AD996199FBE1800CCD811 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4C5AD997199FBE1800CCD811 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		4C5AD967199FB45C00CCD811 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C5AD995199FBE1800CCD811 /* 1.png */,
+				4C5AD996199FBE1800CCD811 /* 2.png */,
+				4C5AD997199FBE1800CCD811 /* 3.png */,
 				4C5AD968199FB45C00CCD811 /* imageSwiperiOSApp-Info.plist */,
 				4C5AD969199FB45C00CCD811 /* InfoPlist.strings */,
 				4C5AD96C199FB45C00CCD811 /* main.m */,
@@ -229,6 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5AD979199FB45C00CCD811 /* Images.xcassets in Resources */,
+				4C5AD998199FBE1800CCD811 /* 1.png in Resources */,
+				4C5AD999199FBE1800CCD811 /* 2.png in Resources */,
+				4C5AD99A199FBE1800CCD811 /* 3.png in Resources */,
 				4C5AD96B199FB45C00CCD811 /* InfoPlist.strings in Resources */,
 				4C5AD974199FB45C00CCD811 /* Main.storyboard in Resources */,
 			);
